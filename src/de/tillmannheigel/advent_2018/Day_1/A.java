@@ -1,5 +1,7 @@
 package de.tillmannheigel.advent_2018.Day_1;
 
+import de.tillmannheigel.advent_2018.Commons;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
