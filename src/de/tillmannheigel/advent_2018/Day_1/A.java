@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 public class A {
 
     public static void main(String[] args) throws IOException {
-        Integer result = Files.lines(Paths.get("src/de/tillmannheigel/advent_2018/Day_1/res.file")).collect(Commons.toSum());
+        Integer result = Files.lines(Paths.get("src/de/tillmannheigel/advent_2018/Day_1/res.file")).map(Commons::parseLine).collect(Commons.toSum());
         System.out.println(result);
     }
 }

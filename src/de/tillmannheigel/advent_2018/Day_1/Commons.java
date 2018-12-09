@@ -9,16 +9,16 @@ class Commons {
     static <T> Collector<T, ?, Integer> toSum() {
         return Collectors.collectingAndThen(
                 Collectors.toList(),
-                list -> Commons.sumList((List<String>) list)
+                list -> Commons.sumList((List<Integer>) list)
         );
     }
 
-    static int sumList(List<String> list) {
+    private static int sumList(List<Integer> list) {
     if(list.size() < 1) return 0;
-    return parseLine(list.get(0)) + sumList(list.subList(1,list.size()));
+    return list.get(0) + sumList(list.subList(1,list.size()));
     }
 
-    private static int parseLine(String line) {
+    static int parseLine(String line) {
         char operation = line.toCharArray()[0];
         int value = Integer.valueOf(line.substring(1));
         if (operation == '+') return value;
