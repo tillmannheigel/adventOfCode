@@ -1,6 +1,10 @@
 package de.tillmannheigel.advent_2018.Day_3;
 
-class ClaimParser {
+import de.tillmannheigel.advent_2018.Day_3.data.ClaimCoordinatesData;
+import de.tillmannheigel.advent_2018.Day_3.data.ClaimData;
+import de.tillmannheigel.advent_2018.Day_3.data.ClaimSizeData;
+
+public class ClaimParser {
 
     private static final String ID_MARKER = "#";
     private static final String COORD_MARKER = "@ ";
@@ -9,7 +13,7 @@ class ClaimParser {
     private static final String COORD_SPLIT = ",";
     private static final String SIZE_SPLIT = "x";
 
-    ClaimData parseClaim(String claimString) {
+    public ClaimData parseClaim(String claimString) {
         ClaimData claimData = new ClaimData();
 
         // id
@@ -19,12 +23,12 @@ class ClaimParser {
 
         // coordinates
         String coordinatesString = parseStringBetween(claimString, COORD_MARKER, SIZE_MARKER);
-        ClaimCoordinates coord = parseCoordinates(coordinatesString);
+        ClaimCoordinatesData coord = parseCoordinates(coordinatesString);
         claimData.setCoordinates(coord);
 
         // size
         String sizeString = parseStringBetween(claimString, SIZE_MARKER, SPACE);
-        ClaimSize size = parseSize(sizeString);
+        ClaimSizeData size = parseSize(sizeString);
         claimData.setSize(size);
         return claimData;
     }
@@ -33,13 +37,13 @@ class ClaimParser {
         return claim.split(start)[1].split(stop)[0];
     }
 
-    private ClaimSize parseSize(String sizeString) {
+    private ClaimSizeData parseSize(String sizeString) {
         String[] split = sizeString.split(SIZE_SPLIT);
-        return new ClaimSize(split[0],split[1]);
+        return new ClaimSizeData(split[0],split[1]);
     }
 
-    private ClaimCoordinates parseCoordinates(String coordinatesString){
+    private ClaimCoordinatesData parseCoordinates(String coordinatesString){
         String[] split = coordinatesString.split(COORD_SPLIT);
-        return new ClaimCoordinates(split[0],split[1]);
+        return new ClaimCoordinatesData(split[0],split[1]);
     }
 }

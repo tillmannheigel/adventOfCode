@@ -14,7 +14,7 @@ public class A {
 
         Files.lines(Paths.get("src/de/tillmannheigel/advent_2018/Day_3/input"))
                 .map(parser::parseClaim)
-                .collect(Collectors.toList());
+                .forEach(claimData -> System.out.println(claimData.toString()));
     }
 
 }
