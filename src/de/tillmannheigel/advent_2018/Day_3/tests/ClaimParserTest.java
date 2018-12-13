@@ -1,7 +1,7 @@
 package de.tillmannheigel.advent_2018.Day_3.tests;
 
 import de.tillmannheigel.advent_2018.Day_3.ClaimParser;
-import de.tillmannheigel.advent_2018.Day_3.data.ClaimData;
+import de.tillmannheigel.advent_2018.Day_3.data.Claim;
 import org.junit.Test;
 
 public class ClaimParserTest {
@@ -14,13 +14,13 @@ public class ClaimParserTest {
         String claimString = "#18 @ 954,514: 28x10 ";
 
         // when
-        ClaimData claimData = claimParser.parseClaim(claimString);
+        Claim claim = claimParser.parseClaim(claimString);
 
         // then
-        assert claimData.getId() == 18;
-        assert claimData.getCoordinates().getX() == 954;
-        assert claimData.getCoordinates().getY() == 514;
-        assert claimData.getSize().getHeight() == 28;
-        assert claimData.getSize().getWidth() == 10;
+        assert claim.getId() == 18;
+        assert claim.getCoordinates().getX() == 954;
+        assert claim.getCoordinates().getY() == 514;
+        assert claim.getSize().getHeight() == 28;
+        assert claim.getSize().getWidth() == 10;
     }
 }

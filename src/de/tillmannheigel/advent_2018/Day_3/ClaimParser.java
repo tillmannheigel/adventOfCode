@@ -1,8 +1,8 @@
 package de.tillmannheigel.advent_2018.Day_3;
 
-import de.tillmannheigel.advent_2018.Day_3.data.ClaimCoordinatesData;
-import de.tillmannheigel.advent_2018.Day_3.data.ClaimData;
-import de.tillmannheigel.advent_2018.Day_3.data.ClaimSizeData;
+import de.tillmannheigel.advent_2018.Day_3.data.Claim;
+import de.tillmannheigel.advent_2018.Day_3.data.ClaimCoordinates;
+import de.tillmannheigel.advent_2018.Day_3.data.ClaimSize;
 
 public class ClaimParser {
 
@@ -13,37 +13,37 @@ public class ClaimParser {
     private static final String COORD_SPLIT = ",";
     private static final String SIZE_SPLIT = "x";
 
-    public ClaimData parseClaim(String claimString) {
-        ClaimData claimData = new ClaimData();
+    public Claim parseClaim(String claimString) {
+        Claim claim = new Claim();
 
         // id
         String idString = parseStringBetween(claimString, ID_MARKER, SPACE);
         int id = Integer.parseInt(idString);
-        claimData.setId(id);
+        claim.setId(id);
 
         // coordinates
         String coordinatesString = parseStringBetween(claimString, COORD_MARKER, SIZE_MARKER);
-        ClaimCoordinatesData coord = parseCoordinates(coordinatesString);
-        claimData.setCoordinates(coord);
+        ClaimCoordinates coord = parseCoordinates(coordinatesString);
+        claim.setCoordinates(coord);
 
         // size
         String sizeString = parseStringBetween(claimString, SIZE_MARKER, SPACE);
-        ClaimSizeData size = parseSize(sizeString);
-        claimData.setSize(size);
-        return claimData;
+        ClaimSize size = parseSize(sizeString);
+        claim.setSize(size);
+        return claim;
     }
 
     private String parseStringBetween(String claim, String start, String stop) {
         return claim.split(start)[1].split(stop)[0];
     }
 
-    private ClaimSizeData parseSize(String sizeString) {
+    private ClaimSize parseSize(String sizeString) {
         String[] split = sizeString.split(SIZE_SPLIT);
-        return new ClaimSizeData(split[0],split[1]);
+        return new ClaimSize(split[0],split[1]);
     }
 
-    private ClaimCoordinatesData parseCoordinates(String coordinatesString){
+    private ClaimCoordinates parseCoordinates(String coordinatesString){
         String[] split = coordinatesString.split(COORD_SPLIT);
-        return new ClaimCoordinatesData(split[0],split[1]);
+        return new ClaimCoordinates(split[0],split[1]);
     }
 }

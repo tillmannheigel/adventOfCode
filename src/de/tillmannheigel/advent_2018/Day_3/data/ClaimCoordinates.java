@@ -1,6 +1,6 @@
 package de.tillmannheigel.advent_2018.Day_3.data;
 
-public class ClaimCoordinatesData {
+public class ClaimCoordinates {
     private int x;
 
     public int getX() {
@@ -21,14 +21,14 @@ public class ClaimCoordinatesData {
 
     private int y;
 
-    public ClaimCoordinatesData(String x, String y){
+    public ClaimCoordinates(String x, String y){
         this.x = Integer.parseInt(x);
         this.y = Integer.parseInt(y);
     }
 
     @Override
     public String toString() {
-        return "ClaimCoordinatesData{" +
+        return "ClaimCoordinates{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';

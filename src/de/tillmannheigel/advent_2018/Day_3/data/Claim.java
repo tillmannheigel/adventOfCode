@@ -1,9 +1,9 @@
 package de.tillmannheigel.advent_2018.Day_3.data;
 
-public class ClaimData {
+public class Claim {
     private int id;
-    private ClaimCoordinatesData coordinates;
-    private ClaimSizeData size;
+    private ClaimCoordinates coordinates;
+    private ClaimSize size;
 
     public int getId() {
         return id;
@@ -13,25 +13,25 @@ public class ClaimData {
         this.id = id;
     }
 
-    public ClaimCoordinatesData getCoordinates() {
+    public ClaimCoordinates getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(ClaimCoordinatesData coordinates) {
+    public void setCoordinates(ClaimCoordinates coordinates) {
         this.coordinates = coordinates;
     }
 
-    public ClaimSizeData getSize() {
+    public ClaimSize getSize() {
         return size;
     }
 
-    public void setSize(ClaimSizeData size) {
+    public void setSize(ClaimSize size) {
         this.size = size;
     }
 
     @Override
     public String toString() {
-        return "ClaimData{" +
+        return "Claim{" +
                 "id=" + id +
                 ", coordinates=" + coordinates +
                 ", size=" + size +

@@ -1,6 +1,6 @@
 package de.tillmannheigel.advent_2018.Day_3.data;
 
-public class ClaimSizeData {
+public class ClaimSize {
     private int height;
     private int width;
 
@@ -12,14 +12,14 @@ public class ClaimSizeData {
         return width;
     }
 
-    public ClaimSizeData(String height, String width){
+    public ClaimSize(String height, String width){
         this.height = Integer.parseInt(height);
         this.width = Integer.parseInt(width);
     }
 
     @Override
     public String toString() {
-        return "ClaimSizeData{" +
+        return "ClaimSize{" +
                 "height=" + height +
                 ", width=" + width +
                 '}';

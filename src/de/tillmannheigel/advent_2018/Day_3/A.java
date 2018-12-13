@@ -1,5 +1,8 @@
 package de.tillmannheigel.advent_2018.Day_3;
 
+import de.tillmannheigel.advent_2018.Day_3.data.Claim;
+import de.tillmannheigel.advent_2018.Day_3.service.GridService;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -11,10 +14,14 @@ public class A {
 
     public static void main(String[] args) throws IOException {
         ClaimParser parser = new ClaimParser();
+        GridService gridService = new GridService();
 
-        Files.lines(Paths.get("src/de/tillmannheigel/advent_2018/Day_3/input"))
+        List<Claim> claims = Files.lines(Paths.get("src/de/tillmannheigel/advent_2018/Day_3/input"))
                 .map(parser::parseClaim)
-                .forEach(claimData -> System.out.println(claimData.toString()));
+                .collect(Collectors.toList());
+
+        gridService.drawGrid(claims);
+
     }
 
 }
