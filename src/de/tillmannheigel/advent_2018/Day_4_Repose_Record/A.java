@@ -1,8 +1,9 @@
 package de.tillmannheigel.advent_2018.Day_4_Repose_Record;
 
-import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.Shift;
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.Event;
+import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.Shift;
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.parser.GuardsParser;
+import de.tillmannheigel.advent_2018.Day_4_Repose_Record.service.ShiftService;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -26,9 +27,31 @@ public class A {
 
         List<Shift> shifts = shiftService.getShifts(shiftEvents);
 
-        shiftService.printShift(shifts.get(2));
-        System.out.println();
-        System.out.println("Sleeps: "+ shiftService.calcMinutesAsleep(shifts.get(2)));
+        HashMap<String, Integer> minutesAsleepByGuard = new HashMap<>();
+
+        for (Shift shift : shifts) {
+            shiftService.printShift(shift);
+            int minutesAsleep = shiftService.calcMinutesAsleep(shift);
+            String guardId = shift.getGuardId();
+            if (!minutesAsleepByGuard.containsKey(guardId)) {
+                //create
+                minutesAsleepByGuard.put(guardId,minutesAsleep);
+                System.out.println();
+            } else {
+                //append
+                Integer sleptBefore = minutesAsleepByGuard.get(guardId);
+                minutesAsleepByGuard.put(guardId,sleptBefore+minutesAsleep);
+            }
+        }
+
+        List<Map.Entry<String, Integer>> sorted = minutesAsleepByGuard.entrySet()
+                .stream()
+                .sorted(Map.Entry.<String, Integer>comparingByValue())
+                .collect(Collectors.toList());
+
+        //this is the guard that sleeps the most:
+        System.out.println(sorted.get(sorted.size()-1));
     }
+
 }
 

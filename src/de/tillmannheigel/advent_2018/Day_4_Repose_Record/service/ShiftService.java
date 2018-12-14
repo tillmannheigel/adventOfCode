@@ -1,4 +1,4 @@
-package de.tillmannheigel.advent_2018.Day_4_Repose_Record;
+package de.tillmannheigel.advent_2018.Day_4_Repose_Record.service;
 
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.EventType;
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.Shift;
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ShiftService {
 
-    void printShift(Shift shift){
+    public void printShift(Shift shift){
         System.out.println("Guard Id:" + shift.getGuardId());
         for (Event event: shift.getEvents()) {
             System.out.println(event.toString());
@@ -43,6 +43,7 @@ public class ShiftService {
             }
             minutesAsleep+=sleeps;
         }
+        System.out.println(minutesAsleep);
         return minutesAsleep;
     }
 
