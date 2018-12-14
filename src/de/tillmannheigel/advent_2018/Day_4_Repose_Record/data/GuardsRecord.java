@@ -8,6 +8,7 @@ import java.util.Date;
 @Value
 @Builder
 public class GuardsRecord {
+    int id;
     Date time;
     GuardState guardState;
 }

@@ -6,11 +6,32 @@ import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.GuardsRecord;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 public class GuardsParser {
 
-    public GuardsRecord parseGuard(String recordString) throws ParseException {
+    public Optional<GuardsRecord> parseGuardExceptionSafe(String recordString){
+        try {
+           return Optional.of(parseGuard(recordString));
+        } catch (Exception ex){
+            System.out.println(ex);
+        }
+        return Optional.empty();
+    }
+
+    private GuardsRecord parseGuard(String recordString) throws Exception {
         GuardsRecord.GuardsRecordBuilder builder = GuardsRecord.builder();
+
+        // id
+        try {
+            String idString = recordString.split("#")[1].split(" ")[0];
+            int id = Integer.parseInt(idString);
+            builder.id(id);
+        } catch (Exception ex) {
+            // expected as not every line has an id
+            // in that case we use the value from the
+        }
 
         // time
         SimpleDateFormat dateParser = new SimpleDateFormat("[yyyy-MM-dd HH:mm]");
