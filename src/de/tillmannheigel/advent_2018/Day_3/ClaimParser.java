@@ -39,7 +39,7 @@ public class ClaimParser {
 
     private ClaimSize parseSize(String sizeString) {
         String[] split = sizeString.split(SIZE_SPLIT);
-        return new ClaimSize(split[0],split[1]);
+        return new ClaimSize(split[1], split[0]);
     }
 
     private ClaimCoordinates parseCoordinates(String coordinatesString){

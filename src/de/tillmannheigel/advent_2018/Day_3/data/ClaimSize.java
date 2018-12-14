@@ -12,7 +12,7 @@ public class ClaimSize {
         return width;
     }
 
-    public ClaimSize(String height, String width){
+    public ClaimSize(String width, String height){
         this.height = Integer.parseInt(height);
         this.width = Integer.parseInt(width);
     }
