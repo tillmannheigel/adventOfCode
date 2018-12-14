@@ -1,14 +1,16 @@
 package de.tillmannheigel.advent_2018.Day_4_Repose_Record.data;
 
 import lombok.Builder;
+import lombok.Data;
 import lombok.Value;
 
 import java.util.Date;
+import java.util.Optional;
 
-@Value
+@Data
 @Builder
-public class GuardsRecord {
-    int id;
+public class Event {
+    Optional<String> id;
     Date time;
-    GuardState guardState;
+    EventType eventType;
 }
