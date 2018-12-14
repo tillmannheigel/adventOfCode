@@ -28,16 +28,6 @@ public class GridService {
         return someoneSearchedHereBefore;
     }
 
-    void drawGrid(int[][] grid) {
-        for (int[] lines : grid) {
-            for (int value : lines) {
-                System.out.print(value + " ");
-            }
-            System.out.println();
-        }
-    }
-
-
     private int[][] drawClaimOnGrid(Claim claim, int[][] grid) {
         int x = claim.getCoordinates().getX();
         int y = claim.getCoordinates().getY();

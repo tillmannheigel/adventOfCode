@@ -1,8 +1,9 @@
-package de.tillmannheigel.advent_2018.Day_3.service;
+package de.tillmannheigel.advent_2018.Day_3.tests;
 
 import de.tillmannheigel.advent_2018.Day_3.data.Claim;
 import de.tillmannheigel.advent_2018.Day_3.data.ClaimCoordinates;
 import de.tillmannheigel.advent_2018.Day_3.data.ClaimSize;
+import de.tillmannheigel.advent_2018.Day_3.service.GridService;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -23,7 +24,7 @@ public class GridServiceTest {
         // when
         int[][] grid = gridService.buildGrid(claims);
         int searchedTwiceFields = gridService.calcSearchedTwiceFields(grid);
-        gridService.drawGrid(grid);
+        this.drawGrid(grid);
 
         // then
         assert searchedTwiceFields == 4;
@@ -39,7 +40,7 @@ public class GridServiceTest {
         // when
         int[][] grid = gridService.buildGrid(claims);
         int searchedTwiceFields = gridService.calcSearchedTwiceFields(grid);
-        gridService.drawGrid(grid);
+        this.drawGrid(grid); // just for fun
 
         // then
         assert searchedTwiceFields == 0;
@@ -53,4 +54,14 @@ public class GridServiceTest {
         claim.setSize(new ClaimSize(width, height));
         return claim;
     }
+
+    private void drawGrid(int[][] grid) {
+        for (int[] lines : grid) {
+            for (int value : lines) {
+                System.out.print(value + " ");
+            }
+            System.out.println();
+        }
+    }
+
 }
