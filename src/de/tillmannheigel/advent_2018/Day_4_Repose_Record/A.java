@@ -50,7 +50,40 @@ public class A {
                 .collect(Collectors.toList());
 
         //this is the guard that sleeps the most:
-        System.out.println(sorted.get(sorted.size()-1));
+        Map.Entry<String, Integer> guard = sorted.get(sorted.size() - 1);
+
+        List<Shift> shiftsOfGuardSleepingTheMost = shifts.stream().filter(shift -> shift.getGuardId().equals(guard.getKey())).collect(Collectors.toList());
+
+        int[] ints = shiftService.calcBestMinute(shiftsOfGuardSleepingTheMost);
+
+        for (int i = 0; i < 60; i++) {
+            if (i<10){
+                System.out.print(" " + i + " ");
+            } else {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+
+        int highestValue = 0;
+        int highestValueHour = 0;
+        for (int i = 0; i < ints.length; i++) {
+            int currentValue = ints[i];
+            if (currentValue > highestValue){
+                highestValue = currentValue;
+                highestValueHour = i;
+            }
+            if (currentValue<10){
+                System.out.print(" " + currentValue + " ");
+            } else {
+                System.out.print(currentValue + " ");
+            }
+        }
+        System.out.println();
+        System.out.println("Minute: " + highestValueHour + "\nValue: " + highestValue);
+
+        int result = Integer.parseInt(guard.getKey());
+        System.out.println(result*(highestValueHour-1));
     }
 
 }

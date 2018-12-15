@@ -11,9 +11,6 @@ public class ShiftService {
 
     public void printShift(Shift shift){
         System.out.println("Guard Id:" + shift.getGuardId());
-        for (Event event: shift.getEvents()) {
-            System.out.println(event.toString());
-        }
         String hasEvent = ".";
         for (int i = 0; i < 60; i++) {
             for (Event event :shift.getEvents()) {
@@ -31,7 +28,6 @@ public class ShiftService {
     public int calcMinutesAsleep(Shift shift){
         int minutesAsleep = 0;
         int sleeps = 0;
-        List<Event> events = shift.getEvents();
         for (int i = 0; i < 60; i++) {
             for (Event event :shift.getEvents()) {
                 if (event.getEventType()== EventType.FALLS_ASLEEP && event.getTime().getMinutes()==i){
@@ -62,5 +58,33 @@ public class ShiftService {
             }
         }
         return shifts;
+    }
+
+    public int[] calcBestMinute(List<Shift> shifts){
+        int[] minutes = new int[60];
+        for (int i = 0; i < 60; i++) {
+            for (int j = 0; j < shifts.size(); j++) {
+                if(isSleeping(i, shifts.get(j))){
+                    minutes[i]++;
+                }
+            }
+        }
+        return minutes;
+    }
+
+    private boolean isSleeping(int minute, Shift shift){
+        int sleeps = 0;
+        for (int i = 0; i < 60; i++) {
+            if(minute==i && sleeps == 1) return true;
+            for (Event event :shift.getEvents()) {
+                if (event.getEventType()== EventType.FALLS_ASLEEP && event.getTime().getMinutes()==i){
+                    sleeps = 1;
+                }
+                if (event.getEventType()== EventType.WAKES_UP && event.getTime().getMinutes()==i){
+                    sleeps = 0;
+                }
+            }
+        }
+        return false;
     }
 }
