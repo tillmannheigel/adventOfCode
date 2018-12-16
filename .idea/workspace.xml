@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5eb2a08f-64de-4820-9b20-279d1bc6e502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/data/BestSleepingMinuteContainer.java" afterDir="false" />
+    <list default="true" id="5eb2a08f-64de-4820-9b20-279d1bc6e502" name="Default Changelist" comment="Day04: B solved">
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/service/ShiftService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/service/ShiftService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,22 +29,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AUTHORS" value="2" />
-          <entry key="class" value="12" />
+          <entry key="class" value="14" />
           <entry key="file" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="input" value="11" />
-          <entry key="java" value="446" />
+          <entry key="idea" value="2" />
+          <entry key="input" value="20" />
+          <entry key="java" value="469" />
           <entry key="md" value="7" />
-          <entry key="testinput" value="1" />
+          <entry key="testInput" value="8" />
+          <entry key="testinput" value="3" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="12" />
+          <entry key="CLASS" value="14" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="446" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="JAVA" value="469" />
+          <entry key="PLAIN_TEXT" value="43" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -52,15 +54,17 @@
         <counts>
           <entry key="AUTHORS" value="2" />
           <entry key="dummy" value="85" />
-          <entry key="java" value="13400" />
+          <entry key="idea" value="883" />
+          <entry key="input" value="1" />
+          <entry key="java" value="14678" />
           <entry key="md" value="2" />
-          <entry key="txt" value="270" />
+          <entry key="txt" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13400" />
-          <entry key="PLAIN_TEXT" value="359" />
+          <entry key="JAVA" value="14678" />
+          <entry key="PLAIN_TEXT" value="1244" />
         </counts>
       </usages-collector>
     </session>
@@ -68,10 +72,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/A.java">
+        <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="72" selection-start-line="72" selection-end-line="73" />
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -100,6 +104,7 @@
       <find>1033</find>
       <find>draw</find>
       <find>d</find>
+      <find>aABWHHwWAadDqtTdDr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,11 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_2/input" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_1/Commons.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_2/ChecksumData.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_2/A.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_2/B.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/Day_2/B.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/Day_2/A.java" />
@@ -146,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/service/GridService.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/service/GridServiceTest.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/tests/GridServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/parser/ClaimParser.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/parser/GuardsRecordsParser.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/data/GuardsRecords.java" />
@@ -167,6 +166,12 @@
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/data/BestSleepingMinuteContainer.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/service/ShiftService.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/B.java" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/idea" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/input" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java" />
       </list>
     </option>
   </component>
@@ -233,17 +238,7 @@
               <item name="de" type="462c0819:PsiDirectoryNode" />
               <item name="tillmannheigel" type="462c0819:PsiDirectoryNode" />
               <item name="advent_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Day_4_Repose_Record" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adventOfCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-              <item name="tillmannheigel" type="462c0819:PsiDirectoryNode" />
-              <item name="advent_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Day_4_Repose_Record" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Day_5_Alchemical_Reduction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
@@ -260,11 +255,11 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544970791350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544977628383" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lombok.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -312,9 +307,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B">
+  <component name="RunManager" selected="Application.A (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="de.tillmannheigel.advent_2018.Day_5_Alchemical_Reduction.A" />
+      <module name="adventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tillmannheigel.advent_2018.Day_5_Alchemical_Reduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -439,11 +449,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A (1)" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.A (1)" />
         <item itemvalue="Application.A" />
         <item itemvalue="JUnit.GridServiceTest.testOnlyOne" />
-        <item itemvalue="JUnit.GridServiceTest.testExample" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544873581686</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Day04: B solved">
+      <created>1544970858805</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544970858805</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -599,9 +616,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
+    <frame x="-1" y="27" width="1368" height="742" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3068182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3068182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,7 +629,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41326532" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.60884356" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5153061" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -652,7 +670,8 @@
     <MESSAGE value="Day04: Readme a bit more readable" />
     <MESSAGE value="Day04: Which guard slept the most" />
     <MESSAGE value="Day04: A solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day04: A solved" />
+    <MESSAGE value="Day04: B solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day04: B solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,72 +698,53 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>isDifferentCase('b','A')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isDifferentCase('A','b')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isDifferentCase('b','b')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isDifferentCase('A','B')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isDifferentCase('B','B')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isDifferentCase('a','B')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isDifferentCase('a','b')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>differentCase &amp;&amp; sameLetter</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>integers.get(i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>RESULTS</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>iterator.next()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>iterator.hasNext()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/Stream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/Collector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../adventOfCode2018/src/main/java/de/tillmannheigel/advent_2018/Day_1/res.file">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/ListIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../adventOfCode2018/src/main/java/de/tillmannheigel/advent_2018/Day_1/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../adventOfCode2018/src/main/java/de/tillmannheigel/advent_2018/Day_2/input">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4482">
@@ -997,16 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/input">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/testinput">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/data/BestSleepingMinuteContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1039,8 +1029,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="72" selection-start-line="72" selection-end-line="73" />
+        <state relative-caret-position="198">
+          <caret line="21" column="116" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/io/BufferedReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="361" column="26" selection-start-line="361" selection-start-column="26" selection-end-line="361" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Character.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="397" column="26" selection-start-line="397" selection-start-column="26" selection-end-line="397" selection-end-column="26" />
+          <folding>
+            <element signature="e#13201#13202#0" expanded="true" />
+            <element signature="e#13246#13247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/testinput">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/idea">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="114" selection-start-line="2" selection-start-column="114" selection-end-line="2" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
