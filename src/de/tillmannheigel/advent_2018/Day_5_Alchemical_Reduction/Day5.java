@@ -4,17 +4,30 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 import static de.tillmannheigel.advent_2018.Commons.readCharacters;
 
-public class A {
+public class Day5 {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Character> characters = readCharacters("src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input");
 
         int reductionResult = recursiveReduction(characters);
 
-        System.out.println(reductionResult);
+        System.out.println("A) " + reductionResult);
+
+        ArrayList<Integer> filteredResults = new ArrayList<>();
+        for (Character ch:"abcdefghijklmnopqrstuvwxyz".toCharArray()) {
+            ArrayList<Character> list = new ArrayList<>(characters);
+            List<Character> filteredList = list.stream().filter(character -> ch != character && Character.toUpperCase(ch) != character).collect(Collectors.toList());
+            filteredResults.add(recursiveReduction(filteredList));
+        }
+        int result = filteredResults.stream().min(Integer::compareTo).get();
+
+        System.out.println("B) " + result);
+
     }
 
     private static int recursiveReduction(List<Character> characters) {
