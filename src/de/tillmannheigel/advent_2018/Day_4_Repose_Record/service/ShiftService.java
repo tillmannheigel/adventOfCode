@@ -1,10 +1,12 @@
 package de.tillmannheigel.advent_2018.Day_4_Repose_Record.service;
 
+import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.BestSleepingMinuteContainer;
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.EventType;
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.Shift;
 import de.tillmannheigel.advent_2018.Day_4_Repose_Record.data.Event;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class ShiftService {
@@ -86,5 +88,69 @@ public class ShiftService {
             }
         }
         return false;
+    }
+    public static List<String> getGuards(List<Shift> shifts) {
+
+        List<String> guards = new ArrayList<>();
+
+        for (Shift shift : shifts) {
+            String guardId = shift.getGuardId();
+            if (!guards.contains(guardId)) {
+                guards.add(guardId);
+            }
+        }
+        return guards;
+    }
+
+    public List<BestSleepingMinuteContainer> getBestSleepingMinutes(List<String> guards, HashMap<String, List<Shift>> shiftsByGuard){
+        List<BestSleepingMinuteContainer> bestSleepingMinutes = new ArrayList<>();
+        for (String guard : guards) {
+            List<Shift> guardsShifts = shiftsByGuard.get(guard);
+            int[] minutes = this.calcBestMinute(guardsShifts);
+            BestSleepingMinuteContainer bestSleepingMinute = this.calculateBestMinuteAndOccurrencyOfSleep(guard, minutes);
+            bestSleepingMinutes.add(bestSleepingMinute);
+        }
+        return bestSleepingMinutes;
+    }
+
+    public static HashMap<String, List<Shift>> shiftsByGuard(List<Shift> shifts) {
+        HashMap<String, List<Shift>> shiftsByGuard = new HashMap<>();
+
+        for (Shift shift : shifts) {
+            String guardId = shift.getGuardId();
+            if (!shiftsByGuard.containsKey(guardId)) {
+                shiftsByGuard.put(guardId, new ArrayList<>());
+            }
+            shiftsByGuard.get(guardId).add(shift);
+        }
+        return shiftsByGuard;
+    }
+
+    public void printTimeline() {
+        for (int i = 0; i < 60; i++) {
+            if (i<10){
+                System.out.print(" " + i + " ");
+            } else {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+
+    public BestSleepingMinuteContainer calculateBestMinuteAndOccurrencyOfSleep(String guardId, int[] minutes){
+        int highestValue = 0;
+        int highestValueMinute = 0;
+        for (int i = 0; i < minutes.length; i++) {
+            int currentValue = minutes[i];
+            if (currentValue > highestValue){
+                highestValue = currentValue;
+                highestValueMinute = i;
+            }
+        }
+
+        return BestSleepingMinuteContainer.builder()
+                .guardId(guardId).minute(highestValueMinute)
+                .timesAtSleep(highestValue)
+                .build();
     }
 }

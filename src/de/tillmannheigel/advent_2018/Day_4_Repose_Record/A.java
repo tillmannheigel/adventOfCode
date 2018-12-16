@@ -56,14 +56,7 @@ public class A {
 
         int[] ints = shiftService.calcBestMinute(shiftsOfGuardSleepingTheMost);
 
-        for (int i = 0; i < 60; i++) {
-            if (i<10){
-                System.out.print(" " + i + " ");
-            } else {
-                System.out.print(i + " ");
-            }
-        }
-        System.out.println();
+        shiftService.printTimeline();
 
         int highestValue = 0;
         int highestValueHour = 0;
