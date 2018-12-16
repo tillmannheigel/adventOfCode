@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5eb2a08f-64de-4820-9b20-279d1bc6e502" name="Default Changelist" comment="Day04: B solved">
-      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput" afterDir="false" />
+    <list default="true" id="5eb2a08f-64de-4820-9b20-279d1bc6e502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +30,7 @@
           <entry key="gitignore" value="1" />
           <entry key="idea" value="2" />
           <entry key="input" value="20" />
-          <entry key="java" value="469" />
+          <entry key="java" value="470" />
           <entry key="md" value="7" />
           <entry key="testInput" value="8" />
           <entry key="testinput" value="3" />
@@ -45,7 +41,7 @@
         <counts>
           <entry key="CLASS" value="14" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="469" />
+          <entry key="JAVA" value="470" />
           <entry key="PLAIN_TEXT" value="43" />
           <entry key="XML" value="2" />
         </counts>
@@ -58,13 +54,13 @@
           <entry key="input" value="1" />
           <entry key="java" value="14678" />
           <entry key="md" value="2" />
-          <entry key="txt" value="271" />
+          <entry key="txt" value="287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="14678" />
-          <entry key="PLAIN_TEXT" value="1244" />
+          <entry key="PLAIN_TEXT" value="1260" />
         </counts>
       </usages-collector>
     </session>
@@ -72,10 +68,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput">
+        <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="29">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,10 +167,10 @@
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/B.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/idea" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput" />
       </list>
     </option>
   </component>
@@ -255,7 +254,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544977628383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544995606886" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -580,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544970858805</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Day05: B struggling ;)">
+      <created>1544977675323</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544977675323</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -671,7 +677,8 @@
     <MESSAGE value="Day04: Which guard slept the most" />
     <MESSAGE value="Day04: A solved" />
     <MESSAGE value="Day04: B solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day04: B solved" />
+    <MESSAGE value="Day05: B struggling ;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day05: B struggling ;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1073,16 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/idea">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1100,7 +1097,17 @@
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

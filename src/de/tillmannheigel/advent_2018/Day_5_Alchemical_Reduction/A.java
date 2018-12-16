@@ -30,7 +30,7 @@ public class A {
             if (!result.isEmpty()) {
                 Character last = result.get(result.size() - 1);
                 if(reduce(next, last)){
-                    result.remove(last);
+                    result.remove(result.size() - 1);
                 } else {
                     result.add(next);
                 }
