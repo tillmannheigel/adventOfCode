@@ -6,6 +6,7 @@ import lombok.Getter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 
 @AllArgsConstructor
@@ -15,9 +16,9 @@ public class CoordinateSystem {
     private final List<Coordinate> coordinates;
     // ...today we're really lazy...
     @Getter(lazy = true)
-    private final int maxX = getMax(coordinates, Coordinate::getX).getX();
+    private final int maxX = getMax(coordinates, Coordinate::getX).getX() + 1;
     @Getter(lazy = true)
-    private final int maxY = getMax(coordinates, Coordinate::getY).getY();
+    private final int maxY = getMax(coordinates, Coordinate::getY).getY() + 1;
     @Getter(lazy = true)
     private final Coordinate topLeft = Coordinate.builder().x(0).y(0).build();
     @Getter(lazy = true)
@@ -63,5 +64,24 @@ public class CoordinateSystem {
             }
         }
         return coordinates;
+    }
+
+
+    public void print() {
+        Map<Coordinate, Integer> map = layers.get(0).getMap();
+        for (int y = 0; y <= getMaxY(); y++) {
+            for (int x = 0; x <= getMaxX(); x++) {
+                Coordinate coordinate = Coordinate.builder().x(x).y(y).build();
+                if (coordinates.contains(coordinate)) System.out.print("[" + coordinates.indexOf(coordinate) + "]");
+                else {
+                    if (map.keySet().contains(coordinate)) {
+                        System.out.print(" " + map.get(coordinate) + " ");
+                    } else {
+                        System.out.print(" . ");
+                    }
+                }
+            }
+            System.out.println();
+        }
     }
 }

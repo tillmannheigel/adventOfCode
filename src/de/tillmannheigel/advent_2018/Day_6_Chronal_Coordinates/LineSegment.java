@@ -1,6 +1,7 @@
 package de.tillmannheigel.advent_2018.Day_6_Chronal_Coordinates;
 
 import lombok.Builder;
+import lombok.Getter;
 import lombok.Value;
 
 import java.util.List;
@@ -8,13 +9,12 @@ import java.util.List;
 @Value
 @Builder
 public class LineSegment {
-    private Coordinate a;
-    private Coordinate b;
+    Coordinate a;
+    Coordinate b;
 
-    // a line is nothing more than a few points between two points
-    public List<Coordinate> getLine() {
-        return GeometricalHelper.getLine(a, b);
-    }
-
+    @Getter(lazy = true)
+    int distance = GeometricalHelper.getDistance(a, b);
+    @Getter(lazy = true)
+    List<Coordinate> line = GeometricalHelper.getLine(a, b);
 
 }
