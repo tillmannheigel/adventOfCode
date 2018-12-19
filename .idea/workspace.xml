@@ -43,8 +43,8 @@
           <entry key="file" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="idea" value="2" />
-          <entry key="input" value="32" />
-          <entry key="java" value="797" />
+          <entry key="input" value="33" />
+          <entry key="java" value="798" />
           <entry key="md" value="7" />
           <entry key="testInput" value="17" />
           <entry key="testinput" value="3" />
@@ -55,8 +55,8 @@
         <counts>
           <entry key="CLASS" value="21" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="797" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="JAVA" value="798" />
+          <entry key="PLAIN_TEXT" value="65" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -67,17 +67,17 @@
           <entry key="dummy" value="99" />
           <entry key="idea" value="883" />
           <entry key="input" value="1" />
-          <entry key="java" value="25780" />
+          <entry key="java" value="25805" />
           <entry key="md" value="2" />
           <entry key="testInput" value="7" />
-          <entry key="txt" value="357" />
+          <entry key="txt" value="362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="25780" />
-          <entry key="PLAIN_TEXT" value="1351" />
+          <entry key="JAVA" value="25805" />
+          <entry key="PLAIN_TEXT" value="1356" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="-162">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/service/ClaimService.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/ATest.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/data/ClaimSize.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/A.java" />
@@ -189,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_6_Chronal_Coordinates/B.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/testInput" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Step.java" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java" />
       </list>
     </option>
@@ -273,7 +273,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545232905142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545232940224" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -633,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545089039544</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Day06: done">
+      <created>1545232966435</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1545232966435</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -670,7 +677,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3121212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -729,7 +735,8 @@
     <MESSAGE value="Day05: Fix A, cheers Deepak ;)" />
     <MESSAGE value="Day05: B done" />
     <MESSAGE value="Day06: Some 2D experiments..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Day06: Some 2D experiments..." />
+    <MESSAGE value="Day06: done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day06: done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -930,6 +937,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,9 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/input">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Step.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1159,10 +1166,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="-162">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
