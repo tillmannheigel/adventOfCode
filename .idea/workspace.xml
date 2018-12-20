@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eb2a08f-64de-4820-9b20-279d1bc6e502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/idea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/testInput" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/Day5.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,24 +36,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AUTHORS" value="2" />
-          <entry key="class" value="22" />
+          <entry key="class" value="24" />
           <entry key="file" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="idea" value="2" />
-          <entry key="input" value="33" />
-          <entry key="java" value="799" />
+          <entry key="idea" value="3" />
+          <entry key="input" value="39" />
+          <entry key="java" value="818" />
           <entry key="md" value="7" />
-          <entry key="testInput" value="17" />
+          <entry key="testInput" value="19" />
           <entry key="testinput" value="3" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="22" />
+          <entry key="CLASS" value="24" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="799" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="JAVA" value="818" />
+          <entry key="PLAIN_TEXT" value="74" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -58,19 +62,19 @@
           <entry key="AUTHORS" value="2" />
           <entry key="class" value="4" />
           <entry key="dummy" value="100" />
-          <entry key="idea" value="883" />
+          <entry key="idea" value="1620" />
           <entry key="input" value="1" />
-          <entry key="java" value="27368" />
+          <entry key="java" value="28189" />
           <entry key="md" value="2" />
           <entry key="testInput" value="7" />
-          <entry key="txt" value="369" />
+          <entry key="txt" value="370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="27368" />
-          <entry key="PLAIN_TEXT" value="1364" />
+          <entry key="JAVA" value="28189" />
+          <entry key="PLAIN_TEXT" value="2102" />
         </counts>
       </usages-collector>
     </session>
@@ -78,10 +82,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java">
+        <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="17" column="118" selection-start-line="17" selection-start-column="118" selection-end-line="17" selection-end-column="118" />
+            <state relative-caret-position="273">
+              <caret line="34" column="120" selection-start-line="34" selection-start-column="120" selection-end-line="34" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/ATest.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/data/ClaimSize.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/A.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4/README.md" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/service/GridService.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_3/service/GridServiceTest.java" />
@@ -166,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_4_Repose_Record/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/testInput" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/A.java" />
-        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/Day5.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_6_Chronal_Coordinates/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_6_Chronal_Coordinates/testInput" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_6_Chronal_Coordinates/Coordinates.java" />
@@ -183,6 +182,11 @@
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Step.java" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/input" />
         <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/input" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/testInput" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/idea" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/Day5.java" />
+        <option value="$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java" />
       </list>
     </option>
   </component>
@@ -193,10 +197,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="326" />
+    <option name="x" value="110" />
     <option name="y" value="27" />
-    <option name="width" value="675" />
-    <option name="height" value="740" />
+    <option name="width" value="667" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -250,7 +254,25 @@
               <item name="de" type="462c0819:PsiDirectoryNode" />
               <item name="tillmannheigel" type="462c0819:PsiDirectoryNode" />
               <item name="advent_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Day_7_The_Sum_Of_Its_Parts" type="462c0819:PsiDirectoryNode" />
+              <item name="Day_5_Alchemical_Reduction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="tillmannheigel" type="462c0819:PsiDirectoryNode" />
+              <item name="advent_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Day_6_Chronal_Coordinates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="tillmannheigel" type="462c0819:PsiDirectoryNode" />
+              <item name="advent_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Day_8_Memory_Maneuver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
@@ -266,7 +288,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545245651812" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545337017996" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -320,24 +342,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Day7">
+  <component name="RunManager" selected="Application.Day8">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="de.tillmannheigel.advent_2018.Day_4_Repose_Record.A" />
-      <module name="adventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.tillmannheigel.advent_2018.Day_4_Repose_Record.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -357,28 +364,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="de.tillmannheigel.advent_2018.Day_8_Memory_Maneuver.Day8" />
+      <module name="adventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tillmannheigel.advent_2018.Day_8_Memory_Maneuver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="de.tillmannheigel.advent_2018.Day_1.A" />
       <module name="adventOfCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A.input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.tillmannheigel.advent_2018.Day_6_Chronal_Coordinates.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.tillmannheigel.advent_2018.Day_6_Chronal_Coordinates" />
-      <option name="MAIN_CLASS_NAME" value="de.tillmannheigel.advent_2018.Day_6_Chronal_Coordinates.A" />
-      <option name="METHOD_NAME" value="input" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -458,20 +463,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A" />
       <item itemvalue="JUnit.A.testInput" />
-      <item itemvalue="JUnit.A.input" />
       <item itemvalue="JUnit.B.input" />
       <item itemvalue="JUnit.B.testInput" />
       <item itemvalue="Application.Day7" />
+      <item itemvalue="Application.Day8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day8" />
         <item itemvalue="Application.Day7" />
         <item itemvalue="JUnit.B.input" />
         <item itemvalue="JUnit.B.testInput" />
         <item itemvalue="JUnit.A.testInput" />
-        <item itemvalue="JUnit.A.input" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545232986829</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Day07: B done">
+      <created>1545252091014</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545252091014</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,7 +690,7 @@
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -689,7 +700,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41326532" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7670068" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48129252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -738,7 +749,8 @@
     <MESSAGE value="Day06: Some 2D experiments..." />
     <MESSAGE value="Day06: done" />
     <MESSAGE value="Day07: A done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day07: A done" />
+    <MESSAGE value="Day07: B done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day07: B done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -757,6 +769,24 @@
           <line>51</line>
           <properties />
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -821,41 +851,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/nio/file/Files.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="929" column="33" selection-start-line="929" selection-start-column="33" selection-end-line="929" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/lombok.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../adventOfCode2018/src/main/java/de/tillmannheigel/advent_2018/Day_4_Repose_Record/data/GuardState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../adventOfCode2018/src/main/java/de/tillmannheigel/advent_2018/Day_4_Repose_Record/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../adventOfCode2018/src/main/java/de/tillmannheigel/advent_2018/Day_4_Repose_Record/parser/GuardsParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/lombok.jar!/AUTHORS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -964,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Character.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1000,16 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/Day5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/junit-4.12-sources.jar!/org/junit/runner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1021,13 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1049,13 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_6_Chronal_Coordinates/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1189,8 +1153,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_7_The_Sum_Of_Its_Parts/Day7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="17" column="118" selection-start-line="17" selection-start-column="118" selection-end-line="17" selection-end-column="118" />
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/idea">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="2" column="224" selection-start-line="2" selection-start-column="224" selection-end-line="2" selection-end-column="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_6_Chronal_Coordinates/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_5_Alchemical_Reduction/Day5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="124" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/io/InputStreamReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/testInput">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31626" selection-start-column="31626" selection-end-column="31626" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/tillmannheigel/advent_2018/Day_8_Memory_Maneuver/Day8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="120" selection-start-line="34" selection-start-column="120" selection-end-line="34" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

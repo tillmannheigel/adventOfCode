@@ -1,0 +1,3 @@
+For Day 8 the problem is to parse the data in a correct manner. You always have to interpret the first two header numbers to finally distinguish between program and metadata.
+
+This is a perfect task for recursion because there is a clear termination condition, that says, if there is a (x=)0 as a first integer, add the next (y) values to the result. If it's a value (x)>0 call the recursion x-times.
