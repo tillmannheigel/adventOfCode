@@ -42,7 +42,6 @@ public class Day8 {
         if (times == 0) {
             return 0;
         }
-        Integer value = integers.poll();
-        return value + parseMetaData(times - 1, integers);
+        return integers.poll() + parseMetaData(times - 1, integers);
     }
 }
